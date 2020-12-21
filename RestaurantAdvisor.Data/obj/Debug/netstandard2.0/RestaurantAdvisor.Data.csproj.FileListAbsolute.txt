@@ -1,0 +1,12 @@
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\bin\Debug\netstandard2.0\RestaurantAdvisor.Core.dll
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\obj\Debug\netstandard2.0\RestaurantAdvisor.Data.csprojAssemblyReference.cache
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\obj\Debug\netstandard2.0\RestaurantAdvisor.Data.AssemblyInfoInputs.cache
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\obj\Debug\netstandard2.0\RestaurantAdvisor.Data.AssemblyInfo.cs
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\bin\Debug\netstandard2.0\RestaurantAdvisor.Data.deps.json
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\bin\Debug\netstandard2.0\RestaurantAdvisor.Data.dll
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\bin\Debug\netstandard2.0\RestaurantAdvisor.Data.pdb
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\bin\Debug\netstandard2.0\RestaurantAdvisor.Core.pdb
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\obj\Debug\netstandard2.0\RestaurantAdvisor.Data.csproj.CoreCompileInputs.cache
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\obj\Debug\netstandard2.0\RestaurantAdvisor.Data.csproj.CopyComplete
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\obj\Debug\netstandard2.0\RestaurantAdvisor.Data.dll
+C:\Users\dcvis\source\repos\RestaurantAdvisor.Data\RestaurantAdvisor.Data\obj\Debug\netstandard2.0\RestaurantAdvisor.Data.pdb
