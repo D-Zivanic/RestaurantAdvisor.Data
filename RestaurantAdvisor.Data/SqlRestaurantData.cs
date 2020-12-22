@@ -1,40 +1,63 @@
-﻿using RestaurantAdvisor.Core;
+﻿using Microsoft.EntityFrameworkCore;
+using RestaurantAdvisor.Core;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace RestaurantAdvisor.Data
 {
     public class SqlRestaurantData : IRestaurantData
     {
+        private readonly RestaurantAdvisorDbContext _db;
+
+        public SqlRestaurantData(RestaurantAdvisorDbContext db)
+        {
+            _db = db;
+        }
+
         public Restaurant Create(Restaurant newRest)
         {
-            throw new NotImplementedException();
+            _db.Add(newRest);
+            return newRest;
         }
 
         public Restaurant Delete(int id)
         {
-            throw new NotImplementedException();
+            var restaurant = GetSingle(id);
+            if (restaurant != null)
+            {
+                _db.Restaurants.Remove(restaurant);
+            }
+            return restaurant;
+
         }
 
         public IEnumerable<Restaurant> GetAllByName(string name)
         {
-            throw new NotImplementedException();
+            var query = from r in _db.Restaurants
+                        where r.Name.StartsWith(name) || string.IsNullOrEmpty(name)
+                        orderby r.Name
+                        select r;
+
+            return query;
         }
 
-        public Restaurant GetSingle(int id)
+        public Restaurant GetSingle(int? id)
         {
-            throw new NotImplementedException();
+            return _db.Restaurants.Find(id);
         }
 
-        public int save()
+        public int Save()
         {
-            throw new NotImplementedException();
+            return _db.SaveChanges();
         }
 
         public Restaurant Update(Restaurant updatedRest)
         {
-            throw new NotImplementedException();
+            var entity = _db.Restaurants.Attach(updatedRest);
+            entity.State = EntityState.Modified;
+            return updatedRest;
+
         }
     }
 }
