@@ -42,6 +42,11 @@ namespace RestaurantAdvisor.Data
             return query;
         }
 
+        public int GetCount()
+        {
+            return _db.Restaurants.Count();
+        }
+
         public Restaurant GetSingle(int? id)
         {
             return _db.Restaurants.Find(id);

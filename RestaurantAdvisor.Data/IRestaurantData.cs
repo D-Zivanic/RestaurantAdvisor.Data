@@ -13,5 +13,6 @@ namespace RestaurantAdvisor.Data
         Restaurant Create(Restaurant newRest);
         Restaurant Delete(int id);
         int Save();
+        int GetCount();
     }
 }
